@@ -7,6 +7,8 @@ script:
 notify:
   urls:
     - http://drone.prismaticgreen.com:4000
+    on_success: true
+    on_failure: true
   irc:
     nick: testgobot
     server: chat.freenode.net
