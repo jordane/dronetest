@@ -17,4 +17,4 @@ notify:
     on_started: true
     on_success: true
     on_failure: true
-    ssl: true
+    ssl: false
