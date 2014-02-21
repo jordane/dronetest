@@ -5,7 +5,7 @@ script:
   - 'sleep 30'
   - 'true'
 notify:
-  email:
+  webhook:
     on_success: true
     on_failure: true
     urls:
