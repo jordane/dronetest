@@ -5,6 +5,8 @@ script:
   - 'sleep 30'
   - 'true'
 notify:
+  urls:
+    - http://drone.prismaticgreen.com:4000
   irc:
     nick: testgobot
     server: chat.freenode.net
