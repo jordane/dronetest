@@ -1,0 +1,15 @@
+image: mischief/docker-golang
+env:
+  - GOPATH=/var/cache/drone
+script:
+  - 'sleep 30'
+  - 'true'
+notify:
+  irc:
+    nick: testgobot
+    server: chat.freenode.net
+    channel: '#jordanetest'
+    on_started: true
+    on_success: true
+    on_failure: true
+    ssl: true
